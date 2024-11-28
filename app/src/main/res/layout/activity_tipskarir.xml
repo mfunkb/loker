@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".tipskarir">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/biru">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Title -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tips Karier"
+                    android:textColor="#FFFFFF"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal" />
+
+                <!-- Article Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mengelola waktu di tempat kerja dengan bijak adalah kunci meningkatkan produktivitas."
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Buatlah daftar prioritas harian untuk memastikan Anda menangani tugas-tugas penting terlebih dahulu. Jangan lupa istirahat singkat setiap beberapa jam agar tetap fokus dan segar. Gunakan metode manajemen waktu seperti teknik 'Pomodoro' untuk membantu menghindari gangguan.."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Interview Tips Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Persiapan yang matang adalah kunci keberhasilan wawancara kerja. Pastikan Anda siap"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="menjawab pertanyaan umum seperti, “Apa kelebihan dan kekurangan Anda?” atau “Apa alasan Anda ingin bergabung dengan perusahaan ini?” Latih jawaban dengan memberikan contoh nyata dari pengalaman kerja yang mencerminkan kemampuan Anda. Selain itu, pelajari latar belakang perusahaan untuk menunjukkan antusiasme dan kesiapan Anda.."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Skill Development Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pengembangan Diri dan Keterampilan"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Di tengah perkembangan era digital, menguasai keterampilan baru menjadi keharusan untuk tetap relevan. Investasikan waktu untuk mengikuti kursus online yang mendukung karier Anda atau memperluas wawasan di bidang lain yang relevan. Keterampilan seperti komunikasi, pemecahan masalah, dan berpikir kritis dapat meningkatkan daya saing Anda sebagai profesional yang adaptif.."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Career Trends Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tren Karier"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ikuti tren terbaru dalam karier agar Anda selalu siap dengan pengetahuan dan keahlian yang dibutuhkan oleh industri. Ketahui posisi atau keterampilan yang sedang banyak dibutuhkan, seperti kemampuan data analytics, coding, atau bahkan project management. Mengetahui tren ini bisa membantu Anda lebih terarah dalam mengembangkan diri dan memilih jalur karier."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Add more sections as needed -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

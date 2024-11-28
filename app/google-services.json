@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "300138126490",
+    "firebase_url": "https://pjbl-loker-19-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pjbl-loker-19",
+    "storage_bucket": "pjbl-loker-19.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300138126490:android:b8a4e05ef6f9ca99cd9323",
+        "android_client_info": {
+          "package_name": "com.marshal.pjbl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVfDfob2WifVj5YMOHV_cXH83Opp3g8yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300138126490:android:b072ce78b12d9369cd9323",
+        "android_client_info": {
+          "package_name": "com.marshal.pjbl_loker_19"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVfDfob2WifVj5YMOHV_cXH83Opp3g8yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300138126490:android:21137f812cc6d343cd9323",
+        "android_client_info": {
+          "package_name": "com.marshal.ukkpakbinar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVfDfob2WifVj5YMOHV_cXH83Opp3g8yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
